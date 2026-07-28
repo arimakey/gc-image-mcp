@@ -5,13 +5,13 @@ Servidor MCP para la API de Google Gemini. Generación de texto, imágenes y con
 ## Instalación
 
 ```bash
-npm install -g @mrobr96/gemini-mcp
+npm install -g gemini-image-mcp
 ```
 
 ## Uso con npx
 
 ```bash
-GEMINI_API_KEY=tu-api-key npx @mrobr96/gemini-mcp
+GEMINI_API_KEY=tu-api-key npx gemini-image-mcp
 ```
 
 ## Herramientas
@@ -30,7 +30,7 @@ GEMINI_API_KEY=tu-api-key npx @mrobr96/gemini-mcp
   "mcp": {
     "gemini": {
       "type": "local",
-      "command": ["npx", "-y", "@mrobr96/gemini-mcp"],
+      "command": ["npx", "-y", "gemini-image-mcp"],
       "env": {
         "GEMINI_API_KEY": "tu-api-key"
       }
