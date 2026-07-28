@@ -1,5 +1,5 @@
 {
-  "name": "gemini-image-mcp",
+  "name": "gc-image-mcp",
   "version": "1.0.0",
   "description": "MCP server para la API de Google Gemini: texto, imágenes y contenido multimodal",
   "type": "module",
