@@ -1,0 +1,31 @@
+{
+  "name": "@mrobr96/gemini-mcp",
+  "version": "1.0.0",
+  "description": "MCP server para la API de Google Gemini: texto, imágenes y contenido multimodal",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "gemini-mcp": "src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node src/index.js",
+    "prepublishOnly": "node -e \"import('./src/tools.js')\""
+  },
+  "keywords": ["gemini", "mcp", "google", "ai", "model-context-protocol"],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@google/genai": "^1.14.0",
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.4"
+  }
+}
