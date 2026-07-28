@@ -19,6 +19,14 @@
   },
   "keywords": ["gemini", "mcp", "google", "ai", "model-context-protocol"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arimakey/gc-image-mcp.git"
+  },
+  "homepage": "https://github.com/arimakey/gc-image-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/arimakey/gc-image-mcp/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
